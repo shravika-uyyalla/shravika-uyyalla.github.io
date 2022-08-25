@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title> RHBS Ganesh Committee </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="shortcut icon" type="x-icon" href="images/om.jpg">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/one.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+            
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">DONATIONS</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+    
+<!-----about contact---->
+    <section class="location">       
+           <i class="fa-solid fa-phone"></i>
+            &nbsp; Phone numbers <br>
+        <pre>Vishwanath : 9959856917      Srinivas : 9246165467      Praveen : 9848923443</pre>
+        <pre>Rajesh : 9490166932      Somendra : 9963314443      Vinith : 8121365133</pre>
+        <br>
+        <i class="fa-solid fa-location-dot"></i>
+            &nbsp;Location
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3808.4953202768684!2d78.49207471487567!3d17.33988278810715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x824c940a0f53d26d!2zMTfCsDIwJzIzLjYiTiA3OMKwMjknMzkuNCJF!5e0!3m2!1sen!2sin!4v1661266607414!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="fast" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+    </section>
+    <section class="footer">
+        <h3>Address</h3>
+        <h4>18-8-254, Society bulding, Rakshapuram colony, DRDL, Hyderabad.</h4>
+        <div class="wrapper">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </section>
+<!---------script---------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
