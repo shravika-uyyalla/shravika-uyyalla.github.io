@@ -160,6 +160,9 @@ h3{
     .row{
         flex-direction: column;
     }
+    .course h2{
+        font-size: 15px;
+    }
 }
 /*-----facilities------*/
 .facilities{
@@ -209,6 +212,12 @@ h3{
 
 } 
 @media(max-width: 700px){
+    .fac h2{
+        font-size: 20px;
+    }
+    .fac h3{
+        font-size: 15px;
+    }
     .rowtwo{
         flex-direction: column;
     }
